@@ -23,7 +23,7 @@ function jogarDados(){
 
          
 
-        var RollingDices = new Audio('../src/audio/dice.wav');
+        var RollingDices = new Audio('src/audio/dice.wav');
         RollingDices.play();
         
         
