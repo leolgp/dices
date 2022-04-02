@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.piece{
+    max-width: 50px;
+   object-fit: cover;
+}
+
+.result{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice{
+    width: 50px;
+}
+
+body{
+    margin-top: .5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.diceImg{
+    display: inline-block;
+    width: 25%;
+    max-width: 130px;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: coral;
+    margin-bottom: 1em;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    padding: .5em;
+}
+
+.player input {
+    margin: 10px;
+    max-width: 140px;
+}
+
+.player label{
+    padding: 1em;
+}
+
+h1{
+    margin-bottom: .5em;
+}
+h2{
+    font-size: 1em;
+}
+h3{
+    font-size: 1em;
+    margin: .5em;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+}
+
+.gamer{
+    padding: .5em;
+}
+
+.turn img{
+    width: 50px;
+}
+
+#roll{
+    display: none;
+}
+
+.back-game{
+    display: none;
+}
+
+
+
+.endGame {
+    display: none;
+}
