@@ -100,7 +100,10 @@ h3{
     display: none;
 }
 
-
+#rounds{
+    max-width: 80px;
+    margin: 0 auto;
+}
 
 .endGame {
     display: none;

@@ -5,6 +5,10 @@ var player2 = { name: '', turn: false, score: 0, allScores:[]}
 var game = { numberRounds:'', roundCount:0}
 let count =1 
 
+function newGame(){
+        location.reload()
+}
+
 function jogarDados(){
 
         
@@ -158,7 +162,7 @@ function gameOver(){
                 document.getElementById('endGameSentence').innerHTML = `Unbelievable. It is a draw`
         }
 
-        
+        document.getElementById('playAgain').innerHTML = "<br><button onclick=newGame() id='newGame'>Play Again </button>"
 
         
 
